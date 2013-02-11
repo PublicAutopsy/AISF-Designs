@@ -19,6 +19,14 @@
 
 /* #Page Styles
 ================================================== */
+/*---------------home page------------------------*/
+.picture-slide{
+	position:absolute;
+	margin-top:50px;
+	width:100%;
+	height:640px;
+	background-color:rgba(0,0,0,0.5);
+}
 
 /* #Media Queries
 ================================================== */
