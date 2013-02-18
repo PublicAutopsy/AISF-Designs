@@ -86,6 +86,10 @@ footer{
 	bottom:0;
 }
 
+#ad-footer, #gd-footer, #wd-footer, #rsrc-footer, #dsktop-footer, #faq-footer{
+	text-align:center;
+}
+
 /* #Media Queries
 ================================================== */
 
