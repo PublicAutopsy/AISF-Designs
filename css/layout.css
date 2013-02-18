@@ -37,17 +37,30 @@ body, html{
 	height:640px;
 }
 
-/*------------navigation-------------------------*/
-#ad-nav, #gd-nav, #wd-nav, #rsrc-nav, #cont-nav {
-	border
+/*------------navigation / logo-------------------------*/
+
+.nav-menu-item{
+	text-align:center;
+	margin:10px 0px 0px 20px;
+	padding-right:10px;
+	float:left;
+
 }
+
+#nav-menu{float:right;}
+
+#cont-nav{border:0px !important;}
+
+#logo{margin-top:10px;}
 
 /*------------------place holder styles----------------*/
 #logo{
 	background-color:rgba(0,0,0,0.5);
+	float:left;
 }
 #home-nav, #ad-nav, #gd-nav, #wd-nav, #rsrc-nav, #cont-nav{
-	background-color:rgba(0,0,0,0.5);
+	/*background-color:rgba(0,0,0,0.5);*/
+	border-right: solid 1px #ccc;
 }
 #home-footer, #ad-footer, #gd-footer, #wd-footer, #rsrc-footer, #dsktop-footer, #faq-footer{
 	background-color:rgba(0,0,0,0.5);
