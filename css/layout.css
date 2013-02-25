@@ -38,19 +38,30 @@ body, html{
 }
 
 /*------------navigation-------------------------*/
-#ad-nav, #gd-nav, #wd-nav, #rsrc-nav, #cont-nav {
-	border
+
+.nav-container{
+	width:960px;
+	height:auto;
+	margin:0 auto;
 }
 
-/*------------------place holder styles----------------*/
-#logo{
-	background-color:rgba(0,0,0,0.5);
+.nav-wrap{float:right;}
+
+#ad-nav, #gd-nav, #wd-nav, #rsrc-nav, #cont-nav {
+	border-right:solid 1px #ccc;
+	padding-right:10px;
+	padding-left:10px;
+	float:left;
 }
+
+#cont-nav{border:0;padding-right:0;}
+/*------------------place holder styles----------------*/
+
 #home-nav, #ad-nav, #gd-nav, #wd-nav, #rsrc-nav, #cont-nav{
-	background-color:rgba(0,0,0,0.5);
+
 }
 #home-footer, #ad-footer, #gd-footer, #wd-footer, #rsrc-footer, #dsktop-footer, #faq-footer{
-	background-color:rgba(0,0,0,0.5);
+	
 }
 
 #twitter-box{
@@ -68,10 +79,20 @@ body, html{
 footer{
 	width:100%;
 	height:50px;
-	background-color:rgba(0,0,0,0.5);
+	
 	/*position:fixed;*/
 	bottom:0;
 }
+
+ul{list-style-type:none;}
+
+footer ul{
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-padding-start: 0px;
+}
+
+h4 span{display:block;}
 
 /* #Media Queries
 ================================================== */
