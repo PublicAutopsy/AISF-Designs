@@ -1,0 +1,43 @@
+#ad-head{
+	padding-top:45px;
+	color:#8d3290;
+}
+
+.picture-slide{
+	margin-top:140px;
+	border-top:solid 8px #8d3290;
+}
+
+.picture-slide h1{
+	
+	color:white;
+	font-weight:normal;
+	
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:5px;
+	width:280px;
+
+	position:fixed;
+	right:-70px;
+	top:243px;
+
+
+	border-left: 40px solid transparent; 
+    border-bottom: 40px solid #8d3290;
+    height:0;
+
+	
+	
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg); 
+
+	visibility:hidden;
+
+}
+
+.divide{border-bottom:solid 8px #8d3290;}
+.divide p{display:none;}
+
+#brands img{text-align:center;}
