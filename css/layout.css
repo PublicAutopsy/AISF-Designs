@@ -89,10 +89,12 @@ footer{
 
 ul{list-style-type:none;}
 
-footer ul{
+footer ul, blockquote{
 	-webkit-margin-before: 0px;
 	-webkit-margin-after: 0px;
 	-webkit-padding-start: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
 }
 
 h4 span{display:block;}
