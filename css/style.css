@@ -275,3 +275,60 @@ color: rgb(178,177,177);
 	background:#600;
 	margin: 5px 20px 10px 10px;
 }
+
+/****************majors landing page*****************/
+
+.picture_slide_majors{
+	position:absolute;
+	margin-top:200px;
+	width:100%;
+	height:640px;
+	background:#CCC;
+	
+}
+#slider_content_majors{
+	margin-top:50px;
+	height:640px;
+	
+}
+
+.advertising{
+	
+	border-top: #8d3290 solid 10px;
+}
+
+
+.heading_adv{
+	font-family:'futura-con', verdana, helvetica, sans-serif;
+	font-size: 36px;
+	color:#8d3290;
+	margin-top: 80px;
+	
+}
+
+.heading_adv img{
+	margin-right: 5px;
+}
+#major_description{
+	margin: 50px 0 100px 0;
+}
+#bach_4 {
+	margin: 75px 0 100px 0;
+}
+
+#majors_teachers h3, #majors_grads h3, #majors_info h3{
+	color:#b5b5b5;
+	font-family:'futura-conlight', verdana, helvetica, sans-serif;
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+#majors_teachers h3 img, #majors_grads h3 img, #majors_info h3 img{
+	vertical-align: middle;
+	
+}
+
+#majors_teachers, #majors_grads, #majors_info{
+	margin-top: 75px;
+	margin-bottom:120px;
+}
