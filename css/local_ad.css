@@ -1,0 +1,144 @@
+#ad-head{
+	padding-top:45px;
+	color:#8d3290;
+}
+
+#graph-head{
+	padding-top:45px;
+	color:#fbad17;
+}
+
+ #web-head{
+	padding-top:45px;
+	color:#00b7f1;
+}
+
+.picture-slide-adv{
+	border-top:solid 8px #8d3290;
+
+}
+
+.picture-slide-graph{
+	border-top:solid 8px #fbad17;
+
+}
+
+.picture-slide-web{
+	border-top:solid 8px #00b7f1;
+}
+
+
+#diagonal-tag{
+	position:relative;
+	background-color:red;
+}
+
+
+
+#diagonal-tag h1{
+	
+	color:white;
+	font-weight:normal;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:5px;
+	width:280px;
+	position:absolute;
+	top:45px;
+	left:550px;
+    height:0;
+
+	
+	
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg); 
+}
+
+
+#graduates_adv #diagonal-tag h1{
+	border-left: 40px solid transparent; 
+    border-bottom: 40px solid #8d3290;
+}
+
+#graduates_graphic #diagonal-tag h1{
+	border-left: 40px solid transparent; 
+    border-bottom: 40px solid #fbad17;
+}
+
+#graduates_web #diagonal-tag h1{
+	border-left: 40px solid transparent; 
+    border-bottom: 40px solid #00b7f1;
+}
+
+
+#second-year{margin-top:750px;}
+
+#second-year-txt{#graduates_adv #second-year-txtmargin-top:750px;}
+
+#fourth-year{margin-top:850px;}
+
+#fourth-year-txt{margin-top:850px;}
+
+#where-now{margin-top:85px;}
+
+#brands{margin-top:30px;}
+
+#where-now h1{font-size:12pt;}
+#brands img{width:100%;height:auto;}
+
+p{font-family:'Helvetica','Arial', sans-serif;}
+
+blockquote{font-family: 'Helvetica','Arial', sans-serif;padding-left:55px;}
+
+#quote blockquote{background:url(../img/quotes.png) left top no-repeat;}
+
+/*----------------------------------media queries----------------------------------------------*/
+
+/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#second-year-txt{margin-top:735px;}
+		#fourth-year-txt{margin-top:835px;}
+
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#second-year-txt{margin-top:0px;}
+		#second-year img{margin:0 auto;}
+
+		#fourth-year-txt{margin-top:0;}
+
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		#second-year-txt{margin-top:0px;}
+		#second-year img{margin:0 auto;}
+
+		#fourth-year-txt{margin-top:0;}
+		#brands{margin-top:5px;}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

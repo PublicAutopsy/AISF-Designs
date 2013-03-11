@@ -1,38 +1,54 @@
-#ad-head{
+#graduates_adv #ad-head{
 	padding-top:45px;
 	color:#8d3290;
 }
 
-.picture-slide{
+#graduates_graphic #ad-head{
+	padding-top:45px;
+	color:#0fbad17;
+}
 
+#graduates_web #ad-head{
+	padding-top:45px;
+	color:#00b7f1;
+}
+
+#graduates_adv .picture-slide{
 	border-top:solid 8px #8d3290;
 
 }
 
-#diagonal-tag{
-	position:relative;
-	background-color:red;
+#graduates_graphic .picture-slide{
+	border-top:solid 8px #0fbad17;
 
 }
 
-#diagonal-tag h1{
+#graduates_web .picture-slide{
+	border-top:solid 8px #00b7f1;
+}
+
+
+#graduates_adv #diagonal-tag{
+	position:relative;
+	background-color:red;
+}
+
+#graduates_graphic #diagonal-tag{
+	position:relative;
+	background-color:#0fbad17;
+}
+
+#graduates_adv #diagonal-tag h1, #graduates_graphic #diagonal-tag h1, #graduates_web #diagonal-tag h1,{
 	
 	color:white;
 	font-weight:normal;
-	
 	text-align:center;
 	padding-top:10px;
 	padding-bottom:5px;
 	width:280px;
-
 	position:absolute;
 	top:45px;
 	left:550px;
-
-
-
-	border-left: 40px solid transparent; 
-    border-bottom: 40px solid #8d3290;
     height:0;
 
 	
@@ -42,25 +58,43 @@
 	-o-transform: rotate(45deg); 
 }
 
-#second-year{margin-top:750px;}
 
-#second-year-txt{margin-top:750px;}
+#graduates_adv #diagonal-tag h1{
+	border-left: 40px solid transparent; 
+    border-bottom: 40px solid #8d3290;
+}
 
-#fourth-year{margin-top:850px;}
+#graduates_graphic #diagonal-tag h1{
+	border-left: 40px solid transparent; 
+    border-bottom: 40px solid #0fbad17;
+}
 
-#fourth-year-txt{margin-top:850px;}
+#graduates_web #diagonal-tag h1{
+	border-left: 40px solid transparent; 
+    border-bottom: 40px solid #00b7f1;
+}
 
-#where-now{margin-top:85px;}
-#brands{margin-top:30px;}
 
-#where-now h1{font-size:12pt;}
-#brands img{width:100%;height:auto;}
+#graduates_adv #second-year, #graduates_graphic #second-year, #graduates_web #second-year{margin-top:750px;}
 
-p{font-family:'Helvetica','Arial', sans-serif;}
+#graduates_adv #second-year-txt, #graduates_graphic #second-year-txt, #graduates_web #second-year-txt{#graduates_adv #second-year-txtmargin-top:750px;}
 
-blockquote{font-family: 'Helvetica','Arial', sans-serif;padding-left:55px;}
+#graduates_adv #fourth-year, #graduates_graphic #fourth-year, #graduates_web #fourth-year{margin-top:850px;}
 
-#quote blockquote{background:url(../img/quotes.png) left top no-repeat;}
+#graduates_adv #fourth-year-txt, #graduates_graphic #fourth-year-txt, #graduates_web #fourth-year-txt{margin-top:850px;}
+
+#graduates_adv #where-now, #graduates_graphic #where-now, #graduates_web #where-now{margin-top:85px;}
+
+#graduates_adv #brands, #graduates_web #brands,{margin-top:30px;}
+
+#graduates_adv #where-now h1, #graduates_graphic #where-now h1, #graduates_web #where-now h1{font-size:12pt;}
+#graduates_adv #brands img, #graduates_graphic #brands img, #graduates_web #brands img{width:100%;height:auto;}
+
+#graduates_adv p, #graduates_graphic p, #graduates_web p{font-family:'Helvetica','Arial', sans-serif;}
+
+#graduates_adv blockquote, #graduates_graphic blockquote, #graduates_web blockquote{font-family: 'Helvetica','Arial', sans-serif;padding-left:55px;}
+
+#graduates_adv #quote blockquote, #graduates_graphic #quote blockquote, #graduates_web #quote blockquote{background:url(../img/quotes.png) left top no-repeat;}
 
 /*----------------------------------media queries----------------------------------------------*/
 
@@ -69,8 +103,8 @@ blockquote{font-family: 'Helvetica','Arial', sans-serif;padding-left:55px;}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
-		#second-year-txt{margin-top:735px;}
-		#fourth-year-txt{margin-top:835px;}
+		#graduates_adv #second-year-txt, #graduates_graphic #second-year-txt, #graduates_web{margin-top:735px;}
+		#graduates_adv #fourth-year-txt, #graduates_graphic #fourth-year-txt, #graduates_web #fourth-year-txt{margin-top:835px;}
 
 	}
 
@@ -79,20 +113,20 @@ blockquote{font-family: 'Helvetica','Arial', sans-serif;padding-left:55px;}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		#second-year-txt{margin-top:0px;}
-		#second-year img{margin:0 auto;}
+		#graduates_adv #second-year-txt, #graduates_graphic #second-year-txt, #graduates_web #second-year-txt{margin-top:0px;}
+		#graduates_adv #second-year img, #graduates_graphic #second-year img, #graduates_web #second-year img{margin:0 auto;}
 
-		#fourth-year-txt{margin-top:0;}
+		#graduates_web #fourth-year-txt, #graduates_graphic #fourth-year-txt, #graduates_web #fourth-year-txt{margin-top:0;}
 
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		#second-year-txt{margin-top:0px;}
-		#second-year img{margin:0 auto;}
+		#graduates_adv #second-year-txt, #graduates_graphic #second-year-txt, #graduates_web #second-year-tx{margin-top:0px;}
+		#graduates_adv #second-year img, #graduates_graphic #second-year img, #graduates_web #second-year img{margin:0 auto;}
 
-		#fourth-year-txt{margin-top:0;}
-		#brands{margin-top:5px;}
+		#graduates_adv #fourth-year-txt, #graduates_graphic #fourth-year-txt, #graduates_web #fourth-year-txt{margin-top:0;}
+		#graduates_adv #brands, #graduates_graphic #brands, #graduates_web #brands{margin-top:5px;}
 
 	}
 
