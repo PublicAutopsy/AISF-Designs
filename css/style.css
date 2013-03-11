@@ -174,7 +174,7 @@ color: rgb(178,177,177);
 	margin-top: 50px;
 }
 
-.twtr-user{display: none !important;}
+/*.twtr-user{display: none !important;}
 .twtr-ft{display: none !important;}
 .twitter-feed h4 a{display:none !important;}
 .twtr-join-conv {display:none !important;}
@@ -190,6 +190,10 @@ border-bottom: none !important;}
 
 .summary{
 	color:#fb4e3d !important;
+}*/
+
+.timeline-header .summary, .timeline-header .summary a:link, .timeline-header .summary a:visited, .p-author a.profile:hover .p-name, .p-author a.profile:focus .p-name {
+color: #fb4e3d !important;
 }
 
 /*********Majors landing pages**********/
@@ -342,22 +346,28 @@ border-bottom: none !important;}
 
 #contact_form form ol li{
 	list-style: none;
+	margin-top: 15px;
+}
+
+#contact_form form label{
+/*	float:left;*/
+	display:block;
+
 }
 
 .large{
 	width: 460px;
-	float: left;
+
 }
 
 .medium{
-	width: 250px;
-	float: left;
+	width: 150px;
+
 }
 
 .large_box{
 	width: 460px;
-	min-height: 200px;
-	float: left;
+	vertical-align:central;
 }
 
 .required{
@@ -365,5 +375,5 @@ border-bottom: none !important;}
 }
 
 #contact_adv, #contact_graph, #contact_web{
-	margin: 25px auto 25px auto;
+	margin: 25px auto 50px auto;
 }
