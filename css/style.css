@@ -107,7 +107,6 @@ h2, h3{
 #register{
 	background-color:rgb(247,247,247);
 	border: solid thin #a6a6a6;
-	border-left: none;
 	margin-left:0;
 }
 #register #forms, #register #table{
@@ -166,6 +165,31 @@ h2, h3{
 #register table td{
 line-height:40px;
 color: rgb(178,177,177);
+}
+
+
+/****twitter*****/
+
+#twitter-box{
+	margin-top: 50px;
+}
+
+.twtr-user{display: none !important;}
+.twtr-ft{display: none !important;}
+.twitter-feed h4 a{display:none !important;}
+.twtr-join-conv {display:none !important;}
+.twtr-widget h3 {display:none !important;}
+.twtr-widget h4 {display:none !important;}
+.twitter-feed span{display:none !important;}
+.twitter-feed .twtr-ft img{display:none !important;}
+img.twtr-profile-img {display:none !important;}
+.twtr-widget .twtr-tweet {
+border-bottom: none !important;}
+.twtr-ft{display: none !important;}
+.twtr-hd{display: none !important;}
+
+.summary{
+	color:#fb4e3d !important;
 }
 
 /*********Majors landing pages**********/
@@ -281,6 +305,10 @@ color: rgb(178,177,177);
 #contact h1, #contact h2, #contact h3{
 	margin: 0;
 	color: #b5b5b5;
+}
+
+#contact h1 img, #contact h2 img, #contact h3 img{
+	vertical-align: central;
 }
 
 #contact p{
