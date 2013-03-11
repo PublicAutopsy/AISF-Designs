@@ -45,7 +45,7 @@ html, body{
 
 /*might need changing*/
 h2, h3{
-	text-indent: 20px;
+	margin-left: 20px;
 }
 
 
@@ -276,59 +276,66 @@ color: rgb(178,177,177);
 	margin: 5px 20px 10px 10px;
 }
 
-/****************majors landing page*****************/
+/*************Ivan Contact Page****************/
 
-.picture_slide_majors{
-	position:absolute;
-	margin-top:200px;
-	width:100%;
-	height:640px;
-	background:#CCC;
-	
-}
-#slider_content_majors{
-	margin-top:50px;
-	height:640px;
-	
+#contact h1, #contact h2, #contact h3{
+	margin: 0;
+	color: #b5b5b5;
 }
 
-.advertising{
-	
-	border-top: #8d3290 solid 10px;
+#contact p{
+	color: #b5b5b5;
 }
 
-
-.heading_adv{
-	font-family:'futura-con', verdana, helvetica, sans-serif;
-	font-size: 36px;
-	color:#8d3290;
-	margin-top: 80px;
-	
+#contact p a{
+	color: #a5c4f1;
+	display:block;
 }
 
-.heading_adv img{
-	margin-right: 5px;
-}
-#major_description{
-	margin: 50px 0 100px 0;
-}
-#bach_4 {
-	margin: 75px 0 100px 0;
+#contact p a:hover{
+	text-decoration: none;
 }
 
-#majors_teachers h3, #majors_grads h3, #majors_info h3{
-	color:#b5b5b5;
-	font-family:'futura-conlight', verdana, helvetica, sans-serif;
-	font-size: 24px;
-	margin-bottom: 50px;
+#contact_head{
+	margin-top: 25px;
 }
 
-#majors_teachers h3 img, #majors_grads h3 img, #majors_info h3 img{
-	vertical-align: middle;
-	
+#contact_feature, #contact_form, #contact_teachers{
+	margin-top: 100px;
 }
 
-#majors_teachers, #majors_grads, #majors_info{
-	margin-top: 75px;
-	margin-bottom:120px;
+#contact_info ul li{
+	display: inline-block;
+}
+
+#contact_form h2{
+	color: #fb4e3d;
+}
+
+#contact_form form ol li{
+	list-style: none;
+}
+
+.large{
+	width: 460px;
+	float: left;
+}
+
+.medium{
+	width: 250px;
+	float: left;
+}
+
+.large_box{
+	width: 460px;
+	min-height: 200px;
+	float: left;
+}
+
+.required{
+	color: #fb4e3d;
+}
+
+#contact_adv, #contact_graph, #contact_web{
+	margin: 25px auto 25px auto;
 }
