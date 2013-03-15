@@ -1,29 +1,24 @@
-
+/*--------------Advertising Major Information-----------------------*/
 .ad-banner{
 	width:100%;
 	height:200px;
 	background-color:#5a308d;
 }
 
-.ad-banner h1, h2{
+#banner-text h1{
+	font-family:'futura';
 	text-align:center;
-	color:white;
+	color:#fff;
 	font-weight:normal;
-	letter-spacing:2px;
-	-webkit-margin-before:0;
-	-webkit-margin-after: 0;
-	text-indent: 0;
+	line-height:10px;
+	padding-top:80px;
 }
 
-.ad-banner h1{
-	font-family:'Myriad Pro';
-	padding-top:70px;
-}
-.ad-banner img{
-	position:relative;
-	bottom:115px;
-	left:450px;
-}
+#second-line{font-size:17pt;padding:0 !important;}
+
+
+
+#ad-icon img{text-align:center;}
 
 .major-bg{
 	background-color:#5a308d;
@@ -32,11 +27,46 @@
 }
 p span{font-weight:bold;}
 
+p{font-family:'Helvetica',sans-serif;}
+
 #column-right{float:right;padding-top:55px;}
 
 #column-right img{padding-top:10px;}
 
-#pic-text{
+.pic-text{
 -webkit-margin-before:0;
 -webkit-margin-after:0;
+}
+
+/*----------------Graphic Design Major Information-------------------------*/
+
+.gd-banner{
+	width:100%;
+	height:200px;
+	background-color:#e8ac31;
+}
+
+#info-graphic-lg-gd img{max-width:100%;height:auto;}
+
+.major-bg-gd{
+	background-color:#e8ac31;
+	color:#fff;
+	padding-left:5px;
+}
+
+#column-right img{max-width:100%;height:auto;}
+
+/*--------------------Web Major Information----------------------------------*/
+
+.web-banner{
+	width:100%;
+	height:200px;
+	background-color:#00b8f1;
+}
+#info-graphic-lg-web img{max-width:100%;height:auto;}
+
+.major-bg-web{
+	background-color:#00b8f1;
+	color:#fff;
+	padding-left:5px;
 }
