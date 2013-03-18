@@ -107,6 +107,7 @@ h2, h3{
 #register{
 	background-color:rgb(247,247,247);
 	border: solid thin #a6a6a6;
+	border-left: none;
 	margin-left:0;
 }
 #register #forms, #register #table{
@@ -165,35 +166,6 @@ h2, h3{
 #register table td{
 line-height:40px;
 color: rgb(178,177,177);
-}
-
-
-/****twitter*****/
-
-#twitter-box{
-	margin-top: 50px;
-}
-
-/*.twtr-user{display: none !important;}
-.twtr-ft{display: none !important;}
-.twitter-feed h4 a{display:none !important;}
-.twtr-join-conv {display:none !important;}
-.twtr-widget h3 {display:none !important;}
-.twtr-widget h4 {display:none !important;}
-.twitter-feed span{display:none !important;}
-.twitter-feed .twtr-ft img{display:none !important;}
-img.twtr-profile-img {display:none !important;}
-.twtr-widget .twtr-tweet {
-border-bottom: none !important;}
-.twtr-ft{display: none !important;}
-.twtr-hd{display: none !important;}
-
-.summary{
-	color:#fb4e3d !important;
-}*/
-
-.timeline-header .summary, .timeline-header .summary a:link, .timeline-header .summary a:visited, .p-author a.profile:hover .p-name, .p-author a.profile:focus .p-name {
-color: #fb4e3d !important;
 }
 
 /*********Majors landing pages**********/
@@ -321,7 +293,6 @@ color: #fb4e3d !important;
 
 #contact p a{
 	color: #a5c4f1;
-	display:block;
 }
 
 #contact p a:hover{
@@ -346,28 +317,22 @@ color: #fb4e3d !important;
 
 #contact_form form ol li{
 	list-style: none;
-	margin-top: 15px;
-}
-
-#contact_form form label{
-/*	float:left;*/
-	display:block;
-
 }
 
 .large{
 	width: 460px;
-
+	float: left;
 }
 
 .medium{
-	width: 150px;
-
+	width: 250px;
+	float: left;
 }
 
 .large_box{
 	width: 460px;
-	vertical-align:central;
+	min-height: 200px;
+	float: left;
 }
 
 .required{
@@ -375,5 +340,73 @@ color: #fb4e3d !important;
 }
 
 #contact_adv, #contact_graph, #contact_web{
-	margin: 25px auto 50px auto;
+	margin: 25px auto 25px auto;
+}
+
+
+/********** teacher contact***********/
+
+#teacher_banner_adv, #teacher_banner_graph, #teacher_banner_web{
+	
+	color:#FFF;
+	height: 100px;
+	padding: 15px 0 15px 50px;
+	margin-top:60px;
+}
+
+#teacher_banner_adv{
+	background:#7a428d;
+}
+
+#teacher_banner_graph{
+	background:#fbaf1d;
+}
+
+#teacher_banner_web{
+	background:#00b7f1;
+}
+
+#teacher_header{
+	margin: -90px 0 50px 0;
+}
+
+#teacher_header h1{
+	color:#FFF;
+}
+
+#teacher_header h1 img{
+	margin-right: 10px;
+}
+
+#teacher_row{
+	margin: 75px 0 50px 0;
+	font-size:12px;
+	font-family:'futura', verdana, helvetica, sans-serif;
+}
+
+#teacher_img{
+	padding-top: 15px;
+}
+
+.teacher_adv{
+	color:#7a428d;
+}
+
+.teacher_graph{
+	color:#fbaf1d;
+}
+
+.teacher_web{
+	color:#00b7f1;
+}
+
+#teacher_info{
+	height: 125px;
+}
+
+#teacher_info p{
+	color:#000;
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
 }
